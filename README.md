@@ -69,6 +69,7 @@ In this project, feature engineering was conducted to enhance the dataset and im
 - A correlation matrix was plotted to identify highly correlated features.
 
 - Features with very high correlation were considered for removal to prevent redundancy.
+![Correlation matrix](images/correlation.png)
 
 ## Modelling and Evaluation
 In this project, I built a churn prediction model using a Random Forest Classifier. The model was developed using a cleaned and feature-engineered dataset of customers and pricing data.
@@ -94,6 +95,7 @@ Key Findings:
 - However, it struggles to correctly identify churned customers, suggesting that the current features may not fully capture churn behavior.
 
 - Feature importance analysis showed that net margin and 12-month energy consumption were the most important factors, while price sensitivity features were not significant.
+![Feature importance](images/feature_importance.png)
 
 ## Summary
 1. 10% of customers in the dataset churned.
